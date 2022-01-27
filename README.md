@@ -30,11 +30,11 @@ React e Nextjs
 
 	- useEffect() para lidar requisições externas e atualizar o estado
 
-	- inserção via API [supabase.io](https://supabase.io)
+	- inserção via API [Supabase](https://supabase.io)
 
 	- sort por data
 
-	-scroll decrescente
+	- scroll decrescente
 
 ***
 
