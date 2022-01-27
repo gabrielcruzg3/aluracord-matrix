@@ -20,9 +20,25 @@ React e Nextjs
 	
 	- [ ] Colocar um botão de apagar mensagem
 
+	- [ ] Mostrar o loading de mensagens (Tem que fazer o mais criativo ein!)
+
+	- [ ] Fazer um efeito quando passar o mouse em cima (Use esse link como referência: https://pt-br.reactjs.org/docs/events.html#mouse-events)
+
 ### Changelog:
 
-- #### 26/01/2021
+- #### 27/01/2022
+
+	- useEffect() para lidar requisições externas e atualizar o estado
+
+	- inserção via API [supabase.io](https://supabase.io)
+
+	- sort por data
+
+	-scroll decrescente
+
+***
+
+- #### 26/01/2022
 
 	- layout pag chat
 
@@ -36,7 +52,7 @@ React e Nextjs
 
 ***
 
-- #### 25/01/2021
+- #### 25/01/2022
 
 	- useState() para lidar com o input de username
 
@@ -46,10 +62,10 @@ React e Nextjs
 
 	- useRoute() para dar o conceito de SPA
 
-	- adicionado pagina
+	- adicionado pagina 404
 
 ***
 
-- #### 24/01/2021
+- #### 24/01/2022
 
 	- layout tela login completo
