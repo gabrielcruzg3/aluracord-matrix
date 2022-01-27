@@ -22,6 +22,20 @@ React e Nextjs
 
 ### Changelog:
 
+- #### 26/01/2021
+
+	- layout pag chat
+
+	- tela de chat(local "backendless") com:
+		
+		- profile pic
+		- username
+		- texto
+		- data
+		- scroll invertido (mostra as mensagens atuais e rola de baixo para cima)
+
+***
+
 - #### 25/01/2021
 
 	- useState() para lidar com o input de username
