@@ -13,6 +13,12 @@ React e Nextjs
 	- [ ] Desafio Master: Pegar outras informações do usuário batendo na API do GitHub
 
 	- [x] Colocar algo na página 404
+	
+		- [ ] Modificar pág 404
+	
+	- [ ] Colocar o botão para enviar a mensagem
+	
+	- [ ] Colocar um botão de apagar mensagem
 
 ### Changelog:
 
