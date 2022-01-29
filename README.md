@@ -26,15 +26,23 @@ React e Nextjs
 
 ### Changelog:
 
+- #### 28/01/2022
+
+	- sendStickerButton.js alura layout added
+
+	- botão pra enviar sticker na pag chat funcional
+
+	- chatting realtime
+
 - #### 27/01/2022
 
 	- useEffect() para lidar requisições externas e atualizar o estado
 
-	- inserção via API [supabase.io](https://supabase.io)
+	- inserção via API [Supabase](https://supabase.io)
 
 	- sort por data
 
-	-scroll decrescente
+	- scroll decrescente
 
 ***
 
