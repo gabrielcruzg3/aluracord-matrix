@@ -34,6 +34,8 @@ React e Nextjs
 
 	- chatting realtime
 
+***
+
 - #### 27/01/2022
 
 	- useEffect() para lidar requisições externas e atualizar o estado
