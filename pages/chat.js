@@ -9,9 +9,14 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5v
 const SUPABASE_URL = 'https://kysxypdmtxjlkdysdlas.supabase.co';
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-
-
-  
+function escutaMensagensEmTempoReal(adicionaMensagem) {
+  return supabaseClient
+    .from('mensagens')
+    .on('INSERT', (respostaLive) => {
+      adicionaMensagem(respostaLive.new);
+    })
+    .subscribe();
+}
 
 export default function ChatPage() {
 
@@ -30,8 +35,19 @@ export default function ChatPage() {
       .order('created_at', { ascending: false })
       .then(({ data }) =>{
         // console.log(data)
-      setListaDeMensagens(data)
+        setListaDeMensagens(data)
+      })
+
+    escutaMensagensEmTempoReal((novaMensagem) => {
+      // handleNovaMensagem(novaMensagem)
+      setListaDeMensagens((valorAtualDaLista) => {
+        return [
+          novaMensagem,
+          ...valorAtualDaLista
+        ]
+      })
     })
+
   }, [])
 
   function handleNovaMensagem(novaMensagem) {
@@ -48,10 +64,6 @@ export default function ChatPage() {
       ])
       .then(({ data }) => {
 
-        setListaDeMensagens([
-        data[0],
-        ...listaDeMensagens
-        ])
       })
 
 
