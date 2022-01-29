@@ -26,6 +26,14 @@ React e Nextjs
 
 ### Changelog:
 
+- #### 28/01/2022
+
+	- sendStickerButton.js alura layout added
+
+	- botão pra enviar sticker na pag chat funcional
+
+	- chatting realtime
+
 - #### 27/01/2022
 
 	- useEffect() para lidar requisições externas e atualizar o estado
